@@ -5,20 +5,17 @@ export default function Header() {
         
         {/* Logo */}
         <div className="text-xl md:text-2xl font-serif text-[#243123]">
-          Lilac Template
+          Dr. Maya Reynolds
         </div>
 
         {/* Navigation */}
         <nav className="flex items-center gap-10 text-sm text-[#243123]">
-          <a
-            href="/blog"
-            className="hover:opacity-70 transition"
-          >
+          <a href="/blog" className="hover:opacity-70 transition">
             Blog
           </a>
-          
-          <a href="/contact" className="hover:opacity-70 transition">Contact</a>
-
+          <a href="/contact" className="hover:opacity-70 transition">
+            Contact
+          </a>
         </nav>
 
       </div>
